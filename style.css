@@ -170,7 +170,7 @@ footer{
 .footer__copyright{
     text-decoration: none;
     font-family: 'Montserrat';
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #828282;
@@ -183,4 +183,22 @@ footer{
     font-size: 14px;
     line-height: 17px;
     color: #333333;
+}
+
+@media screen and (max-width: 970px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .offer__text{
+        font-size: 10px;
+    }
+
+    .site {
+        font-size: 12px;
+    }
+
+    .rate__num{
+        font-size: 12px;
+    }
 }
